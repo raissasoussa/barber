@@ -6,7 +6,7 @@
 }
 
 header {
-  width: 100%;
+  width: 100vw;
 }
 
 .header-content {
@@ -21,7 +21,14 @@ i {
 
 .header-icons {
   display: flex;
+  justify-content: space-between;
   gap: 14px;
+  width: 200px;
+  align-items: center;
+
+}
+.header-icons p{
+  margin-bottom: 12px;
 }
 
 .header-icons a:hover i {
@@ -40,6 +47,7 @@ i {
 .header-button {
   border: 1px solid #FFF;
   padding: 8px 24px;
+  width: 200px;
   border-radius: 4px;
   color: #FFF;
   background-color: transparent;
@@ -99,7 +107,6 @@ i {
   }
   .header-logo img {
     width: 160px;
-    left: 200px;
     margin-top: 46px;
   }
   .header-button {
